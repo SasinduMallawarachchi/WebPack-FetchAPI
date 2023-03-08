@@ -10,7 +10,9 @@ laughImg.src = laughing;
 const jokeBtn = document.getElementById('jokeBtn')
 jokeBtn.addEventListener('click', generateJoke) 
 jokeBtn.addEventListener('click',addEmployeeRestApi)
-jokeBtn.addEventListener('click',getFunction('2'))
+jokeBtn.addEventListener('click',()=>{
+    getFunction(2);
+})
 
 generateJoke()
 
